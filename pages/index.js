@@ -194,8 +194,10 @@ var stopVideo = function ( element ) {
         />
        </div>
        <div className={styles.shop}>
+        <h1>SHOP</h1>
        <div className={styles.hats}>
-       <Image
+       <div className={styles.card}>
+        <Image
           className={styles.shopitem}
           src="/blackhat.gif"
           alt="Project Solomon Logo"
@@ -203,6 +205,9 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
+        <h3 className={styles.button}>BUY NOW</h3>
+        </div>
+        <div className={styles.card}>
         <Image
           className={styles.shopitem}
           src="/redhat.gif"
@@ -211,6 +216,9 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
+        <h3 className={styles.button}>BUY NOW</h3>
+        </div>
+        <div className={styles.card}>
         <Image
           className={styles.shopitem}
           src="/bluehat.gif"
@@ -219,6 +227,8 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
+        <h3 className={styles.button}>BUY NOW</h3>
+        </div>
        </div>
        </div>
 
