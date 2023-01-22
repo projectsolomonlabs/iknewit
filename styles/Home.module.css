@@ -11,6 +11,7 @@
   align-items: center;
   scroll-snap-type: y mandatory;
   overflow: scroll;
+  background-color: black;
 }
 
 .backgroundImage {
