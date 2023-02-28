@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import ReactPlayer from 'react-player'
+import Slideshow from '../components/slideshow'
 
 
 
@@ -22,6 +23,15 @@ var stopVideo = function ( element ) {
 		video.pause();
 	}
 };
+// var slideshow = function(){
+//     var counter = 1;
+//     setInterval(function(){
+//       getElementById('radio' + counter).checked = true;
+//       counter++;
+//       if(counter > 4){
+//         counter = 1;
+//       }
+//     }, 5000)};
 
   return (
     <div className={styles.container}>
@@ -33,14 +43,18 @@ var stopVideo = function ( element ) {
 
       
        <div className={styles.backgroundImage}>
-       <Image
-            className={styles.backgroundImage}
-            src="/front.png"
+       
+        <div className={styles.backimage}>
+        <Image
+            className={styles.overimage}
+            src="/ikifront.png"
             alt="Project Solomon Logo"
             width={1000}
             height={1000}
-            object-fit= "contain"
+            object-fit= "fill"
           />
+        </div>
+        <Slideshow/>
        </div>
        <div className={styles.gallery}>
        <Image
@@ -182,11 +196,11 @@ var stopVideo = function ( element ) {
           object-fill="cover"
         />
         <div className={styles.video}>
-        <video width="560" height="315" src="https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/I+KNEW+IT+FINAL+NO+BLOOPERS.m4v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" controls controlsList="nodownload" allowfullscreen />
+        <iframe width="675" height="380" src="https://www.youtube.com/embed/0TxDDeSKCbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <Image
           className={styles.videoimage}
-          src="/bg.png"
+          src="/1CevenBG.png"
           alt="Project Solomon Logo"
           width={1000}
           height={1000}
@@ -230,6 +244,94 @@ var stopVideo = function ( element ) {
         <h3 className={styles.button}>BUY NOW</h3>
         </div>
        </div>
+        <div className={styles.hats}>
+        <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/jesustee.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>BUY NOW</h3>
+        </div>
+        <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/777tee.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>BUY NOW</h3>
+        </div>
+        <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/buddhatee.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>BUY NOW</h3>
+        </div>
+        </div>
+        </div>
+        <div className={styles.shop}>
+        <h1>BONUS</h1>
+       <div className={styles.hats}>
+       <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/cevenchrist.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>VIEW</h3>
+        </div>
+        <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/777.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>VIEW</h3>
+        </div>
+        <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/buddha.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>VIEW</h3>
+        </div>
+       </div>
+        <div className={styles.hats}>
+        <div className={styles.card}>
+        <Image
+          className={styles.shopitem}
+          src="/iki.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>VIEW</h3>
+        </div>
+        
+        </div>
+
        </div>
 
       <footer className={styles.footer}>
