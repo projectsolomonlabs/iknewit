@@ -187,6 +187,52 @@
   justify-content: center;
 }
 
+.waitcontainer {
+  height: 100vh;
+  width: 100vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.chimpcontainer {
+  background-color:#F0F001;
+  display: flex;
+  padding: 0rem;
+  height: 90vh;
+}
+
+.chimpcontainer h2 {
+  color: #000000;
+  
+}
+
+.chimpcontainer form {
+  height: 70vh;
+}
+
+.waithat {
+    width: 20vw;
+    height: 25vh;
+    
+  }
+
+
+.chimpcontainer form {
+  color:#000000;
+  
+}
+
+.subbutton {
+  padding: .5rem;
+  background-color: #000000;
+  color:#F0F001;
+  font-weight: bold;
+}
+
 .manualbtn{
   border: 2px solid #40D3DC;
   padding: 5px;
@@ -265,6 +311,12 @@
     padding-top: 40vh;
     padding-left: 20vw;
     z-index: 4;
+  }
+
+  .waithat {
+    width: 70vw;
+    height: 25vh;
+    
   }
 
   .gallery {
@@ -378,6 +430,12 @@
     padding-top: 35vh;
     padding-left: 30vw;
     z-index: 4;
+  }
+
+  .waithat {
+    width: 25vw;
+    height: 25vh;
+    
   }
 
   .gallery {

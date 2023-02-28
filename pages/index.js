@@ -223,9 +223,9 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
-        <h3 className={styles.button}>BUY NOW</h3>
+        <h3 className={styles.button}>COMING SOON</h3>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} onClick={()=> push("/waitlist")}>
         <Image
           className={styles.shopitem}
           src="/redhat.gif"
@@ -234,7 +234,7 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
-        <h3 className={styles.button}>BUY NOW</h3>
+        <h3 className={styles.button} onClick={()=> push("/waitlist")}>JOIN WAITLIST</h3>
         </div>
         <div className={styles.card}>
         <Image
@@ -245,7 +245,7 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
-        <h3 className={styles.button}>BUY NOW</h3>
+        <h3 className={styles.button}>COMING SOON</h3>
         </div>
        </div>
         <div className={styles.hats}>
@@ -258,7 +258,7 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
-        <h3 className={styles.button}>BUY NOW</h3>
+        <h3 className={styles.button}>COMING SOON</h3>
         </div>
         <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/777salvation.usdz")}>
         <Image
@@ -280,7 +280,7 @@ var stopVideo = function ( element ) {
           height={1000}
           object-fill="cover"
         />
-        <h3 className={styles.button}>BUY NOW</h3>
+        <h3 className={styles.button}>COMING SOON</h3>
         </div>
         </div>
         </div>
@@ -346,9 +346,9 @@ var stopVideo = function ( element ) {
         </div>
         
         </div>
-
+        
        </div>
-
+       <p>DESIGNED BY 1301 STUDIOS</p>
       <footer className={styles.footer}>
 
       </footer>
