@@ -256,6 +256,16 @@
 }
 
 @media (max-width: 900px) {
+
+  .overimage {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    padding-top: 10rem;
+    padding-left: 20rem;
+    z-index: 4;
+  }
+
   .gallery {
     width: 100vw;
     min-height: 100vh;
@@ -286,13 +296,13 @@
     z-index: 2;
     grid-area: 2 / 2;
     box-shadow: 10px 10px 50px black;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   
   .video{
     z-index: 3;
     grid-area: 2 / 2;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   
   .videoimage{
@@ -317,7 +327,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 0rem;
+    padding-bottom: 5rem;
   }
   
   .shop h1{
