@@ -34,10 +34,10 @@
 
 .overimage {
   position: absolute;
-  width: 75%;
-  height: 75%;
-  padding-top: 10rem;
-  padding-left: 20rem;
+  width: 70vw;
+  height: 60vh;
+  padding-top: 40vh;
+  padding-left: 30vw;
   z-index: 4;
 }
 
@@ -368,14 +368,14 @@
   
 }
 
-@media (max-width: 900px) {
+@media (min-width: 600px) and (max-width:900px) {
 
   .overimage {
     position: absolute;
-    width: 80vw;
-    height: 80vh;
-    padding-top: 20vh;
-    padding-left: 20vw;
+    width: 70vw;
+    height: 70vh;
+    padding-top: 30vh;
+    padding-left: 30vw;
     z-index: 4;
   }
 
