@@ -85,6 +85,7 @@
   height: 100vh;
   z-index: 1;
   grid-area: 2/2;
+  object-fit: cover;
 }
 
 .mobilevid {
