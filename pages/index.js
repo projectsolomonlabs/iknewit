@@ -263,13 +263,13 @@ var stopVideo = function ( element ) {
         <div className={styles.card}>
         <Image
           className={styles.shopitem}
-          src="/777tee.gif"
+          src="/777shirt.gif"
           alt="Project Solomon Logo"
           width={1000}
           height={1000}
           object-fill="cover"
         />
-        <h3 className={styles.button}>BUY NOW</h3>
+        <h3 className={styles.button}>VIEW</h3>
         </div>
         <div className={styles.card}>
         <Image
@@ -326,6 +326,17 @@ var stopVideo = function ( element ) {
         <Image
           className={styles.shopitem}
           src="/iki.gif"
+          alt="Project Solomon Logo"
+          width={1000}
+          height={1000}
+          object-fill="cover"
+        />
+        <h3 className={styles.button}>VIEW</h3>
+        </div>
+        <div className={styles.card} onClick={()=> push("https://apps.apple.com/us/app/culture-cards/id1615684145")}>
+        <Image
+          className={styles.shopitem}
+          src="/cevenccard.gif"
           alt="Project Solomon Logo"
           width={1000}
           height={1000}

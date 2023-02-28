@@ -35,8 +35,8 @@
 .overimage {
   position: absolute;
   width: 70vw;
-  height: 60vh;
-  padding-top: 40vh;
+  height: 70vh;
+  padding-top: 30vh;
   padding-left: 30vw;
   z-index: 4;
 }
@@ -373,8 +373,8 @@
   .overimage {
     position: absolute;
     width: 70vw;
-    height: 70vh;
-    padding-top: 30vh;
+    height: 60vh;
+    padding-top: 35vh;
     padding-left: 30vw;
     z-index: 4;
   }
