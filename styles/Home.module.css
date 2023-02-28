@@ -255,7 +255,7 @@
   background: #40D3DC;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
 
   .overimage {
     position: absolute;
@@ -367,6 +367,120 @@
   
   
 }
+
+@media (max-width: 900px) {
+
+  .overimage {
+    position: absolute;
+    width: 80vw;
+    height: 80vh;
+    padding-top: 20vh;
+    padding-left: 20vw;
+    z-index: 4;
+  }
+
+  .gallery {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .icard{
+    width: 25vw;
+    height: 25vh;
+  }
+
+  .videoarea{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 25vh 50vh 25vh;
+    scroll-snap-align: start;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .frame {
+    position: relative;
+    width: 300px;
+    height: 177px;
+    z-index: 2;
+    grid-area: 2 / 2;
+    box-shadow: 10px 10px 50px black;
+    margin-bottom: 70px;
+  }
+  
+  .video{
+    z-index: 3;
+    grid-area: 2 / 2;
+    margin-bottom: 70px;
+  }
+  
+  .videoimage{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    grid-area: 2/2;
+  }
+
+  .deskvid {
+    display: none;
+  }
+
+  .mobilevid {
+    display: block;
+  }
+
+  .shop {
+    width: 100vw;
+    min-height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0rem;
+  }
+  
+  .shop h1{
+    color: #F0F001;
+    align-self: center;
+    font-size: 1rem;
+  }
+  
+  .hats{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card{
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shopitem{
+    width: 20vw;
+    height: 25vh;
+  }
+  
+  .button {
+    color: #F0F001;
+    border: #F0F001 solid 4px;
+    width:auto;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+  }
+  
+  
+}
+
 
 .slideshowcontainer {
   max-width: 1000px;
