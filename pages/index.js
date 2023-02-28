@@ -3,10 +3,13 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import ReactPlayer from 'react-player'
 import Slideshow from '../components/slideshow'
+import { useRouter } from 'next/router';
 
 
 
 export default function Home() {
+
+  const {push} = useRouter()
 
   /**
  * Stop an iframe or HTML5 <video> from playing
@@ -284,7 +287,7 @@ var stopVideo = function ( element ) {
         <div className={styles.shop}>
         <h1>BONUS</h1>
        <div className={styles.hats}>
-       <div className={styles.card}>
+       <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/jesus.usdz")}>
         <Image
           className={styles.shopitem}
           src="/cevenchrist.gif"
@@ -295,7 +298,7 @@ var stopVideo = function ( element ) {
         />
         <h3 className={styles.button}>VIEW</h3>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/777.usdz")}>
         <Image
           className={styles.shopitem}
           src="/777.gif"
@@ -306,7 +309,7 @@ var stopVideo = function ( element ) {
         />
         <h3 className={styles.button}>VIEW</h3>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/buddha.usdz")}>
         <Image
           className={styles.shopitem}
           src="/buddha.gif"
@@ -319,7 +322,7 @@ var stopVideo = function ( element ) {
         </div>
        </div>
         <div className={styles.hats}>
-        <div className={styles.card}>
+        <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/iknewit.usdz")}>
         <Image
           className={styles.shopitem}
           src="/iki.gif"
