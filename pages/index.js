@@ -290,7 +290,7 @@ var stopVideo = function ( element ) {
        <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/jesus.usdz")}>
         <Image
           className={styles.shopitem}
-          src="/cevenchrist.gif"
+          src="/CevenChrist.gif"
           alt="Project Solomon Logo"
           width={1000}
           height={1000}
