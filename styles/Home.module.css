@@ -259,10 +259,10 @@
 
   .overimage {
     position: absolute;
-    width: 90%;
-    height: 70%;
-    padding-top: 25vh;
-    padding-left: 5rem;
+    width: 80vw;
+    height: 60vh;
+    padding-top: 40vh;
+    padding-left: 20vw;
     z-index: 4;
   }
 

@@ -205,7 +205,7 @@ var stopVideo = function ( element ) {
           alt="Project Solomon Logo"
           width={1000}
           height={1000}
-          object-fill="cover"
+          object-fill="fill"
         />
        </div>
        <div className={styles.shop}>
