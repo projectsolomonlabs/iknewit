@@ -196,6 +196,7 @@
   align-items: center;
   justify-content: center;
   background-color: black;
+  overflow: hidden;
 }
 
 .chimpcontainer {
@@ -314,9 +315,17 @@
   }
 
   .waithat {
-    width: 70vw;
+    width: 50vw;
     height: 25vh;
     
+  }
+
+  .subbutton {
+    padding: 1rem;
+    background-color: #000000;
+    color:#F0F001;
+    font-weight: bold;
+    padding-right: .5rem;
   }
 
   .gallery {
