@@ -307,6 +307,50 @@
   .mobilevid {
     display: block;
   }
+
+  .shop {
+    width: 100vw;
+    min-height: 100vh;
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0rem;
+  }
+  
+  .shop h1{
+    color: #F0F001;
+    align-self: center;
+    font-size: 2rem;
+  }
+  
+  .hats{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .card{
+    width:25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .shopitem{
+    width: 20vw;
+    height: 25vh;
+  }
+  
+  .button {
+    color: #F0F001;
+    border: #F0F001 solid 5px;
+    width:auto;
+    padding: 5px;
+    text-align: center;
+  }
   
   
 }
