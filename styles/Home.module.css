@@ -87,6 +87,10 @@
   grid-area: 2/2;
 }
 
+.mobilevid {
+  display: none;
+}
+
 .shop {
   width: 100vw;
   min-height: 100vh;
@@ -260,10 +264,49 @@
     flex-wrap: wrap;
   }
   .icard{
-    width: 50vw;
+    width: 25vw;
     height: auto;
   }
 
+  .videoarea{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25vw 50vw 25vw;
+    grid-template-rows: 25vh 50vh 25vh;
+    scroll-snap-align: start;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .frame {
+    position: relative;
+    width: 400px;
+    height: 240px;
+    z-index: 2;
+    grid-area: 2 / 2;
+    box-shadow: 10px 10px 50px black;
+  }
+  
+  .video{
+    z-index: 3;
+    grid-area: 2 / 2;
+  }
+  
+  .videoimage{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    grid-area: 2/2;
+  }
+
+  .deskvid {
+    display: none;
+  }
+
+  .mobilevid {
+    display: block;
+  }
   
   
 }

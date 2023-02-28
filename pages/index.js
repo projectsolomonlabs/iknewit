@@ -196,7 +196,8 @@ var stopVideo = function ( element ) {
           object-fill="cover"
         />
         <div className={styles.video}>
-        <iframe width="675" height="380" src="https://www.youtube.com/embed/0TxDDeSKCbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className={styles.deskvid} width="675" height="380" src="https://www.youtube.com/embed/0TxDDeSKCbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className={styles.mobilevid} width="336" height="190" src="https://www.youtube.com/embed/0TxDDeSKCbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <Image
           className={styles.videoimage}
