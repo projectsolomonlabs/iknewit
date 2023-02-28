@@ -259,22 +259,22 @@
 
   .overimage {
     position: absolute;
-    width: 75%;
-    height: 75%;
-    padding-top: 10rem;
-    padding-left: 20rem;
+    width: 90%;
+    height: 70%;
+    padding-top: 25vh;
+    padding-left: 5rem;
     z-index: 4;
   }
 
   .gallery {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   .icard{
-    width: 25vw;
+    width: 50vw;
     height: 25vh;
   }
 
@@ -327,7 +327,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
   }
   
   .shop h1{
@@ -358,10 +358,11 @@
   
   .button {
     color: #F0F001;
-    border: #F0F001 solid 5px;
+    border: #F0F001 solid 4px;
     width:auto;
     padding: 5px;
     text-align: center;
+    font-size: small;
   }
   
   
