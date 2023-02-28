@@ -260,7 +260,7 @@ var stopVideo = function ( element ) {
         />
         <h3 className={styles.button}>BUY NOW</h3>
         </div>
-        <div className={styles.card}>
+        <div className={styles.card} onClick={()=> push("https://culturecardimages.s3.us-east-2.amazonaws.com/iknewit/777salvation.usdz")}>
         <Image
           className={styles.shopitem}
           src="/777shirt.gif"
